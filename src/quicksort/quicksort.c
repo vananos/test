@@ -15,7 +15,7 @@ typedef struct {
 #define INSERTSORT	8
 
 
-#define SWAP(a,b,T)	register size_t _a;												\
+#define SWAP(a,b,T)				register size_t _a;												\
 						register T	*__l = (T*)(a);									\
 						register T *__r = (T*)(b);									\
 						register T tmp;												\
