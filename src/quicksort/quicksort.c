@@ -32,7 +32,7 @@ typedef struct {
 							*__r++ = tmp;											\
 						}															\
 
-#define 			_swap(x,y,n,type)												\
+#define _swap(x,y,n,type)												\
 					if(type == 2){													\
 						register long tmp = *(long*)(x);							\
 						*(long*)(x) = *(long*)(y);									\
